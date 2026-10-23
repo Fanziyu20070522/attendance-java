@@ -1,4 +1,4 @@
-FROM tomcat:9.0-jdk11-corretto-al2
+FROM tomcat:9.0
 COPY attendance.war /usr/local/tomcat/webapps/ROOT.war
 EXPOSE 8080
-CMD ["shturl.cc/A", "run"]
+CMD ["shturl.cc/C", "run"]
